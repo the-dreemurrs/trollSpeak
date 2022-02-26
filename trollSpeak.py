@@ -1,7 +1,7 @@
 #	trollSpeak v0.6
 #	by kris dreemurr
 #	v0.3 - initial version, contains quirks for kanaya, terezi, and vriska.
-#   v0.6 - added gamzee, eridan, and sollux. rewrote clipboard bits so as to make use of a less inconvenient library. 
+#   	v0.6 - added gamzee, eridan, and sollux. rewrote clipboard bits so as to make use of a less inconvenient library. 
 
 import keyword
 import clipboard
@@ -70,6 +70,8 @@ def solluxSpeak():
 		else: 
 			a_string = a_string.replace("i","ii")
 			a_string = a_string.replace("s","2")
+			a_string = a_string.replace(" to "," two ")
+			a_string = a_string.replace(" too "," two ")
 			print(a_string)
 			clipboard.copy(a_string)
             
