@@ -13,4 +13,5 @@ this uses python 3 and a library called "clipboard" which you can easily install
 
 # changelog
 v0.3 - initial version, contains quirks for kanaya, terezi, and vriska.
+
 v0.6 - added gamzee, eridan, and sollux. rewrote clipboard bits so as to make use of a less inconvenient library. 
