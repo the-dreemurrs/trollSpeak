@@ -1,7 +1,8 @@
-#	trollSpeak v0.6
+#	trollSpeak v0.6.1
 #	by kris dreemurr
 #	v0.3 - initial version, contains quirks for kanaya, terezi, and vriska.
 #   	v0.6 - added gamzee, eridan, and sollux. rewrote clipboard bits so as to make use of a less inconvenient library. 
+#	v0.6.1 - fixed a bug in eridan's quirk.
 
 import keyword
 import clipboard
@@ -21,7 +22,7 @@ def eridanSpeak():
 		else: 
 			a_string = a_string.replace("w","ww")
 			a_string = a_string.replace("v","vv")
-			a_string = a_string.replace("ing","in")
+			a_string = a_string.replace("ing ","in ")
 			print(a_string)
 			clipboard.copy(a_string)
 
