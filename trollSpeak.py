@@ -206,11 +206,13 @@ def vriskaSpeak():
         else: 
             a_string = a_string.replace("B","8")
             a_string = a_string.replace("b","8")
+            a_string = a_string.replace("fated","f8ed")
             a_string = a_string.replace("ate","8")
             a_string = a_string.replace("ait","8")
             a_string = a_string.replace("ation","8tion")
             a_string = a_string.replace("relatable","rel8a8le")
             a_string = a_string.replace("great","gr8")
+            a_string = a_string.replace("FATED","F8ED")
             a_string = a_string.replace("ATE","8")
             a_string = a_string.replace("AIT","8")
             a_string = a_string.replace("ATION","8TION")
