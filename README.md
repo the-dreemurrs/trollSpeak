@@ -17,3 +17,5 @@ v0.3 - initial version, contains quirks for kanaya, terezi, and vriska.
 v0.6 - added gamzee, eridan, and sollux. rewrote clipboard bits so as to make use of a less inconvenient library. 
 
 v0.6.1 - fixed a bug in eridan's quirk.
+
+v1.0 - all of the beta trolls have been added. some issues with capitalization have been fixed. not all possible puns have been added yet; these will come in future updates. 
