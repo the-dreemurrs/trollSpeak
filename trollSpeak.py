@@ -1,9 +1,10 @@
-#   trollSpeak v1.0
+#   trollSpeak v0.6
 #   by kris dreemurr
 #   v0.3 - initial version, contains quirks for kanaya, terezi, and vriska.
 #   v0.6 - added gamzee, eridan, and sollux. rewrote clipboard bits so as to make use of a less inconvenient library.
 #   v0.6.1 - fixed a bug in eridan's quirk.
-#   v1.0 - all of the beta trolls have been added. some issues with capitalization have been fixed. not all possible puns have been added yet; these will come in future updates. 
+#   v1.0 - all of the beta trolls have been added. some issues with capitalization have been fixed. not all possible puns have been added yet; these will come in future updates.
+#   v1.1 - more puns added for equius and vriska.
 
 import keyword
 import clipboard
@@ -60,6 +61,21 @@ def equiusSpeak():
             a_string = a_string.replace("DOUBLECROSS","%%")
             a_string = a_string.replace("DOUBLE CROSS","%%")
             a_string = a_string.replace("SAKES","SA%ES")
+            a_string = a_string.replace("pollute","pol100t")
+            a_string = a_string.replace("POLLUTE","POL100T")
+            a_string = a_string.replace("instruction","instru%ion")
+            a_string = a_string.replace("INSTRUCTION","INSTRU%ION")
+            a_string = a_string.replace("discuss","di%uss")
+            a_string = a_string.replace("perfection","perfe%ion")
+            a_string = a_string.replace("PERFECTION","PERFE%ION")
+            a_string = a_string.replace("prediction","predi%ion")
+            a_string = a_string.replace("PREDICTION","PREDI%ION")
+            a_string = a_string.replace("acceptable","a%eptable")
+            a_string = a_string.replace("ACCEPTABLE","A%EPTABLE")
+            a_string = a_string.replace("distinction","distin%ion")
+            a_string = a_string.replace("DISTINCTION","DISTIN%ION")
+            a_string = a_string.replace("bricks","bri%")
+            a_string = a_string.replace("BRICKS","BRI%")
             print(a_string)
             clipboard.copy(a_string)
 
@@ -203,21 +219,29 @@ def vriskaSpeak():
         a_string = input()
         if a_string == "quit()":
             i = 0
-        else: 
+        else:
+            a_string = a_string.replace("blatant","8l8tant")
+            a_string = a_string.replace("BLATANT","8L8TANT")
+            a_string = a_string.replace("break","8r8k")
+            a_string = a_string.replace("BREAK","8R8K")
+            a_string = a_string.replace("relatable","rel8a8le")
+            a_string = a_string.replace("RELATABLE","REL8A8LE")
             a_string = a_string.replace("B","8")
             a_string = a_string.replace("b","8")
             a_string = a_string.replace("fated","f8ed")
             a_string = a_string.replace("ate","8")
             a_string = a_string.replace("ait","8")
             a_string = a_string.replace("ation","8tion")
-            a_string = a_string.replace("relatable","rel8a8le")
+            a_string = a_string.replace("ating","8ing")
             a_string = a_string.replace("great","gr8")
             a_string = a_string.replace("FATED","F8ED")
             a_string = a_string.replace("ATE","8")
             a_string = a_string.replace("AIT","8")
             a_string = a_string.replace("ATION","8TION")
-            a_string = a_string.replace("RELATABLE","REL8A8LE")
+            a_string = a_string.replace("ATING","8ING")
             a_string = a_string.replace("GREAT","GR8")
+            a_string = a_string.replace("ain't","8n't")
+            a_string = a_string.replace("AIN'T","8N'T")
         print(a_string)
         clipboard.copy(a_string)
 
