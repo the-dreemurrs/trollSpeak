@@ -19,3 +19,5 @@ v0.6 - added gamzee, eridan, and sollux. rewrote clipboard bits so as to make us
 v0.6.1 - fixed a bug in eridan's quirk.
 
 v1.0 - all of the beta trolls have been added. some issues with capitalization have been fixed. not all possible puns have been added yet; these will come in future updates. 
+
+v1.1 - more puns added for equius and vriska.
